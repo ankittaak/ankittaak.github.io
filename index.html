@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050915">
+  <meta name="description" content="Ankit Taak — Digital Marketer, SEO Executive and Web Designer. Local SEO, Google Business Profile, paid ads, websites and social media strategy.">
+  <title>Ankit Taak | Digital Marketer, SEO Executive &amp; Web Designer</title>
+  <link rel="preload" as="image" href="assets/portfolio-hero.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- The provided portfolio visual is used as the hero artwork. -->
+      <div class="hero-art">
+        <img
+          class="hero-image"
+          src="assets/portfolio-hero.jpg"
+          alt="Ankit Taak in a professional dark workspace with an HP Victus laptop and digital marketing dashboard graphics."
+          width="1672" height="941"
+          fetchpriority="high"
+        >
+
+        <!-- Desktop click targets align with the two CTA buttons in the artwork. -->
+        <a class="hotspot hotspot-work" href="#projects" aria-label="View my work"></a>
+        <a class="hotspot hotspot-contact" href="#contact" aria-label="Let's talk"></a>
+      </div>
+
+      <!-- Visible touch-friendly actions on narrow screens; also provides real links. -->
+      <div class="mobile-actions" aria-label="Portfolio actions">
+        <a class="button button-primary" href="#projects">View My Work <span aria-hidden="true">→</span></a>
+        <a class="button button-secondary" href="#contact">Let’s Talk <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <!-- Accessible content for search engines and assistive technology. -->
+      <div class="sr-only">
+        <h1 id="hero-title">Visibility. Enquiries. Real Growth.</h1>
+        <p>I'm Ankit Taak, a Digital Marketer, SEO Executive and Web Designer helping local and growing businesses improve online visibility and generate enquiries through Local SEO, Google Business Profile, ads, websites and social media.</p>
+        <nav aria-label="Main portfolio navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <ul>
+          <li>Local SEO and Google Business Profile</li>
+          <li>Google Ads and Meta Ads</li>
+          <li>Websites and landing pages</li>
+          <li>SEO audits and reporting</li>
+          <li>Social media strategy</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Replace these target IDs with the real section IDs in your portfolio. -->
+    <span id="home" class="anchor-target" aria-hidden="true"></span>
+    <span id="about" class="anchor-target" aria-hidden="true"></span>
+    <span id="services" class="anchor-target" aria-hidden="true"></span>
+    <span id="projects" class="anchor-target" aria-hidden="true"></span>
+    <span id="contact" class="anchor-target" aria-hidden="true"></span>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
